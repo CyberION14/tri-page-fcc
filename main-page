@@ -1,8 +1,12 @@
-
+<style>
+  .smaller-image {
+    width: 100px;
+  }
+</style>
 
 
 <!-- Do not edit under this line-->
-<h1>Elon Musk</h1>
+<h1 id="header ">Elon Musk</h1>
 <h2> Innovator of the Century </h2>
 <h4>Intro</h4>
 <p>Elon is the founder, CEO, and CTO of SpaceX; a co-founder, a Series A investor, CEO, and product architect of Tesla Inc.; co-chairman of OpenAI; founder and CEO of Neuralink. He was previously co-founder and chairman of SolarCity; co-founder of Zip2; and founder of X.com, which merged with Confinity and took the name PayPal. As of May 2017, he has an estimated net worth of $15.2 billion, making him the 80th-wealthiest person in the world. In December 2016, Musk was ranked 21st on the Forbes list of The World's Most Powerful People.
@@ -18,4 +22,14 @@ In addition to his primary business pursuits, he has also envisioned a high-spee
   <li></li>
   <li></li>
 </ul>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/612px-Elon_Musk_2015.jpg" class="smaller-image" alt="Author standing on a beach with two thumbs up. ">
+
 <h3>Fun facts</h3>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<p>Learn more about<a href="https://en.wikipedia.org/wiki/Elon_Musk"> Elon Musk</a> on Wikipedia</p>
