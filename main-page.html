@@ -12,15 +12,32 @@
         .smaller-image {
           width: 100px;
         }
+        .image { 
+                 background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/330px-Elon_Musk_2015.jpg) no-repeat center fixed; 
+                 background-size: fill;
+                 width: 100%;
+                 min-height: auto;
+                  }
+                  img {
+                    float: right;
+                    border: 1px dotted black;
+                    margin: 0px 0px 15px 20px;
+                }
         .bg-1{
           background-color: lightgray;
-          margin: 80px 80px 80px 80px;
+          margin: 10%;
           padding: 25px 25px 25px 25px;
           border-radius: 2%;
         }
-        
-        .ul {
-          color: blue;
+        img{
+          width: 330px;
+          align-content: right;
+        }
+        ul {
+          color: grey;
+          margin-left: auto;
+          margin-left: 10%;
+          
         }
       </style>
 
@@ -28,8 +45,9 @@
    
     <div class="bg-1 text-center">
     <h1 id="header" class="text-center">Elon Musk</h1>
-    <h4>Bio</h4>
-    <p>Musk is the founder, CEO, and CTO of SpaceX; a co-founder, a Series A investor, CEO, and product architect of
+    <div id="bio">
+      <h4>Bio</h4>
+     <p class="text-center" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/330px-Elon_Musk_2015.jpg" width="100">Musk is the founder, CEO, and CTO of SpaceX; a co-founder, a Series A investor, CEO, and product architect of
        Tesla Inc.; co-chairman of OpenAI; founder and CEO of Neuralink. He was previously co-founder and chairman of 
        SolarCity; co-founder of Zip2; and founder of X.com, which merged with Confinity and took the name PayPal. As of 
        July 2017, he has an estimated net worth of $16.1 billion, making him the 80th-wealthiest person in the world.
@@ -40,8 +58,10 @@
        primary business pursuits, he has also envisioned a high-speed transportation system known as the Hyperloop, 
        and has proposed a VTOL supersonic jet aircraft with electric fan propulsion, known as the Musk electric jet.      
        Musk also proposed the concept of The Boring Company in 2017.</p>
+    </div>
+  
     <h3>Timeline:</h3>
-    <ul class="centered">
+    <ul class="text-center">
       <li></li>
       <li></li>
       <li></li>
@@ -50,7 +70,7 @@
       <li></li>
       <li></li>
     </ul>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/330px-Elon_Musk_2015.jpg" class="smaller-image" alt="Lorem Ispum">
+    
 
     <h3>Fun facts
         <ul>
