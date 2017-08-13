@@ -1,2 +1,2 @@
 # tri-page-fcc
-Tribute page to Elon Musk for FCC
+Tribute page to Dietrich Bonhoffer for FCC
